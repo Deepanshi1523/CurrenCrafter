@@ -12,7 +12,7 @@
 <p><b>JavaScript:</b> Currency conversion logic and real-time exchange rate fetching</p>
 
 <h2>Preview:</h2>
-<img width="960" alt="Screenshot 2024-01-26 204745" src="https://github.com/Deepanshi1523/CurrenCrafter/assets/104934054/b19fe893-bd72-4e32-bfc1-ccd3a88adcdb">
+<img width="960" alt="Screenshot 2024-01-27 005144" src="https://github.com/Deepanshi1523/CurrenCrafter/assets/104934054/3a3b2a3c-60c6-4d75-a244-661f9d042c85">
 
 <h2>Contributing:</h2>
 <p>Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or submit a pull request.</p>
