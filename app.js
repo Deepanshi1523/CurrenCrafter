@@ -6,6 +6,9 @@ const fromCurr=document.querySelector(".from select");
 const toCurr=document.querySelector(".to select");
 const msg=document.querySelector(".msg");
 
+let conversionHistory=[];
+const historyList=document.querySelector("#history-list");
+
 for(let select of dropdowns){
     for(currCode in countryList){
         let newOption=document.createElement("option");
@@ -44,7 +47,10 @@ const updateExchange= async()=>{
     let data=await response.json();
     let rate=data[toCurr.value.toLowerCase()];
     let finalAmount=rate*amtVal;
-    msg.innerText=`${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
+    const coversionDetails=`${amtVal} ${fromCurr.value} = ${finalAmount} ${toCurr.value}`;
+    msg.innerText=coversionDetails;
+    conversionHistory.push(coversionDetails);
+    displayConversionHistory();
 };
 
 btn.addEventListener("click",(evt)=>{
@@ -55,3 +61,12 @@ btn.addEventListener("click",(evt)=>{
 window.addEventListener("load", ()=>{
     updateExchange();
 })
+
+function displayConversionHistory() {
+    historyList.innerHTML = '';
+    conversionHistory.forEach((conversion) => {
+        const listItem = document.createElement('li');
+        listItem.textContent = conversion;
+        historyList.appendChild(listItem);
+    });
+}

@@ -17,6 +17,8 @@ body{
     border-radius: 1rem;
     min-height: 45vh;
     width: 45vh;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 form{
@@ -79,4 +81,50 @@ form button{
     color: #fff;
     font-size: 1.15rem;
     cursor: pointer;
+}
+
+#conversion-history {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 1rem;
+    min-height: 63vh;
+    max-height: 63vh;
+    width: 45vh;
+    margin-right: 20px;
+}
+
+#conversion-history h2{
+    margin-bottom: 20px;
+    position: fixed;
+    background-color: #A4B8C4;
+    color: black;
+    width: 45vh;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container h2{
+    background-color: #A4B8C4;
+    color: black;
+    width: 45vh;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#history-list {
+    list-style: none;
+    padding: 0;
+    margin-top: 55px;
+    max-height: 55vh;
+    overflow-y: auto;
+}
+
+#history-list li {
+    margin-bottom: 5px;
 }
