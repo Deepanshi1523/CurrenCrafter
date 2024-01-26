@@ -1,4 +1,4 @@
-﻿﻿<h1>CurrenCrafter</h1>
+﻿﻿# CurrenCrafter
 <p>A simple and intuitive Currency Converter web application built with HTML, CSS, and JavaScript.</p>
 
 <h2>Features:</h2>
