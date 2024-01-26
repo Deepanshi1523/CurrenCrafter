@@ -1,5 +1,5 @@
-﻿﻿#CurrenCrafter
-A simple and intuitive Currency Converter web application built with HTML, CSS, and JavaScript.
+﻿﻿<h1>CurrenCrafter</h1>
+<p>A simple and intuitive Currency Converter web application built with HTML, CSS, and JavaScript.</p>
 
 <h2>Features:</h2>
 <p><b>Real-time Exchange Rates:</b> Utilizes live exchange rates to provide accurate and up-to-date currency conversions.</p>
