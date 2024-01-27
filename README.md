@@ -9,7 +9,7 @@
 <h2>Technologies Used:</h2>
 <p><b>HTML:</b> Structure and layout of the game.</p>
 <p><b>CSS:</b> Styling for an attractive and user-friendly interface.</p>
-<p><b>JavaScript:</b> Currency conversion logic and real-time exchange rate fetching</p>
+<p><b>JavaScript:</b> Currency conversion logic and real-time exchange rate fetching.</p>
 
 <h2>Preview:</h2>
 <img width="960" alt="Screenshot 2024-01-27 005144" src="https://github.com/Deepanshi1523/CurrenCrafter/assets/104934054/3a3b2a3c-60c6-4d75-a244-661f9d042c85">
